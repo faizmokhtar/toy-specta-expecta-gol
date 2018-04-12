@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A40FF18138B85A19D8F687F /* libPods-toy-specta-expecta-golTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2567052229B50BFA62DB09 /* libPods-toy-specta-expecta-golTests.a */; };
 		98015459207F3D69004F29B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98015458207F3D69004F29B5 /* AppDelegate.m */; };
 		9801545C207F3D69004F29B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9801545B207F3D69004F29B5 /* ViewController.m */; };
 		9801545F207F3D69004F29B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9801545D207F3D69004F29B5 /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		98015467207F3D6A004F29B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98015466207F3D6A004F29B5 /* main.m */; };
 		98015471207F3D6A004F29B5 /* toy_specta_expecta_golTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98015470207F3D6A004F29B5 /* toy_specta_expecta_golTests.m */; };
 		9801547C207F3D6A004F29B5 /* toy_specta_expecta_golUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9801547B207F3D6A004F29B5 /* toy_specta_expecta_golUITests.m */; };
+		9801548A207F3E6A004F29B5 /* CellSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 98015489207F3E6A004F29B5 /* CellSpec.m */; };
+		9801548D207F3EBD004F29B5 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9801548C207F3EBD004F29B5 /* Cell.m */; };
+		BA8BB3419AFFB452EF44CDCF /* libPods-toy-specta-expecta-golUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377BA588185EFFC5BD18B22 /* libPods-toy-specta-expecta-golUITests.a */; };
+		C002405EFC875AAB4CB0BB6F /* libPods-toy-specta-expecta-gol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 627DDA7A6FC3FA18A1450DD5 /* libPods-toy-specta-expecta-gol.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0397326AE6281FFD3D1E9513 /* Pods-toy-specta-expecta-gol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toy-specta-expecta-gol.release.xcconfig"; path = "Pods/Target Support Files/Pods-toy-specta-expecta-gol/Pods-toy-specta-expecta-gol.release.xcconfig"; sourceTree = "<group>"; };
+		0433100A8B94930AB2E74D49 /* Pods-toy-specta-expecta-golTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toy-specta-expecta-golTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toy-specta-expecta-golTests/Pods-toy-specta-expecta-golTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B575F87E3CA2446E0B2D8E7 /* Pods-toy-specta-expecta-gol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toy-specta-expecta-gol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toy-specta-expecta-gol/Pods-toy-specta-expecta-gol.debug.xcconfig"; sourceTree = "<group>"; };
+		627DDA7A6FC3FA18A1450DD5 /* libPods-toy-specta-expecta-gol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-toy-specta-expecta-gol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E96C6F9531E3AFC4574E408 /* Pods-toy-specta-expecta-golUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toy-specta-expecta-golUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-toy-specta-expecta-golUITests/Pods-toy-specta-expecta-golUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8377BA588185EFFC5BD18B22 /* libPods-toy-specta-expecta-golUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-toy-specta-expecta-golUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98015454207F3D69004F29B5 /* toy-specta-expecta-gol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "toy-specta-expecta-gol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98015457207F3D69004F29B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		98015458207F3D69004F29B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,12 @@
 		98015477207F3D6A004F29B5 /* toy-specta-expecta-golUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "toy-specta-expecta-golUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9801547B207F3D6A004F29B5 /* toy_specta_expecta_golUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = toy_specta_expecta_golUITests.m; sourceTree = "<group>"; };
 		9801547D207F3D6A004F29B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98015489207F3E6A004F29B5 /* CellSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellSpec.m; sourceTree = "<group>"; };
+		9801548B207F3EBD004F29B5 /* Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		9801548C207F3EBD004F29B5 /* Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		A2AAB029D6B6ADB927E213AE /* Pods-toy-specta-expecta-golUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toy-specta-expecta-golUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toy-specta-expecta-golUITests/Pods-toy-specta-expecta-golUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AADF600E78E8AD15D156A2D0 /* Pods-toy-specta-expecta-golTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toy-specta-expecta-golTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-toy-specta-expecta-golTests/Pods-toy-specta-expecta-golTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE2567052229B50BFA62DB09 /* libPods-toy-specta-expecta-golTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-toy-specta-expecta-golTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C002405EFC875AAB4CB0BB6F /* libPods-toy-specta-expecta-gol.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A40FF18138B85A19D8F687F /* libPods-toy-specta-expecta-golTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA8BB3419AFFB452EF44CDCF /* libPods-toy-specta-expecta-golUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +105,8 @@
 				9801546F207F3D6A004F29B5 /* toy-specta-expecta-golTests */,
 				9801547A207F3D6A004F29B5 /* toy-specta-expecta-golUITests */,
 				98015455207F3D69004F29B5 /* Products */,
+				B240968D14BCD4E5D66FDF79 /* Pods */,
+				B262D4D62CE79951A939546D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +127,8 @@
 				98015458207F3D69004F29B5 /* AppDelegate.m */,
 				9801545A207F3D69004F29B5 /* ViewController.h */,
 				9801545B207F3D69004F29B5 /* ViewController.m */,
+				9801548B207F3EBD004F29B5 /* Cell.h */,
+				9801548C207F3EBD004F29B5 /* Cell.m */,
 				9801545D207F3D69004F29B5 /* Main.storyboard */,
 				98015460207F3D6A004F29B5 /* Assets.xcassets */,
 				98015462207F3D6A004F29B5 /* LaunchScreen.storyboard */,
@@ -119,6 +143,7 @@
 			children = (
 				98015470207F3D6A004F29B5 /* toy_specta_expecta_golTests.m */,
 				98015472207F3D6A004F29B5 /* Info.plist */,
+				98015489207F3E6A004F29B5 /* CellSpec.m */,
 			);
 			path = "toy-specta-expecta-golTests";
 			sourceTree = "<group>";
@@ -132,6 +157,29 @@
 			path = "toy-specta-expecta-golUITests";
 			sourceTree = "<group>";
 		};
+		B240968D14BCD4E5D66FDF79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B575F87E3CA2446E0B2D8E7 /* Pods-toy-specta-expecta-gol.debug.xcconfig */,
+				0397326AE6281FFD3D1E9513 /* Pods-toy-specta-expecta-gol.release.xcconfig */,
+				0433100A8B94930AB2E74D49 /* Pods-toy-specta-expecta-golTests.debug.xcconfig */,
+				AADF600E78E8AD15D156A2D0 /* Pods-toy-specta-expecta-golTests.release.xcconfig */,
+				A2AAB029D6B6ADB927E213AE /* Pods-toy-specta-expecta-golUITests.debug.xcconfig */,
+				6E96C6F9531E3AFC4574E408 /* Pods-toy-specta-expecta-golUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B262D4D62CE79951A939546D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				627DDA7A6FC3FA18A1450DD5 /* libPods-toy-specta-expecta-gol.a */,
+				EE2567052229B50BFA62DB09 /* libPods-toy-specta-expecta-golTests.a */,
+				8377BA588185EFFC5BD18B22 /* libPods-toy-specta-expecta-golUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98015480207F3D6A004F29B5 /* Build configuration list for PBXNativeTarget "toy-specta-expecta-gol" */;
 			buildPhases = (
+				B25178F2B63FD5E52D6B1B07 /* [CP] Check Pods Manifest.lock */,
 				98015450207F3D69004F29B5 /* Sources */,
 				98015451207F3D69004F29B5 /* Frameworks */,
 				98015452207F3D69004F29B5 /* Resources */,
@@ -156,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98015483207F3D6A004F29B5 /* Build configuration list for PBXNativeTarget "toy-specta-expecta-golTests" */;
 			buildPhases = (
+				5DABA81986BB915F87EDB9CD /* [CP] Check Pods Manifest.lock */,
 				98015468207F3D6A004F29B5 /* Sources */,
 				98015469207F3D6A004F29B5 /* Frameworks */,
 				9801546A207F3D6A004F29B5 /* Resources */,
@@ -174,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98015486207F3D6A004F29B5 /* Build configuration list for PBXNativeTarget "toy-specta-expecta-golUITests" */;
 			buildPhases = (
+				78F7815D11D14E6A1E6DE9CD /* [CP] Check Pods Manifest.lock */,
 				98015473207F3D6A004F29B5 /* Sources */,
 				98015474207F3D6A004F29B5 /* Frameworks */,
 				98015475207F3D6A004F29B5 /* Resources */,
@@ -257,12 +308,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5DABA81986BB915F87EDB9CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-toy-specta-expecta-golTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78F7815D11D14E6A1E6DE9CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-toy-specta-expecta-golUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B25178F2B63FD5E52D6B1B07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-toy-specta-expecta-gol-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98015450207F3D69004F29B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9801545C207F3D69004F29B5 /* ViewController.m in Sources */,
+				9801548D207F3EBD004F29B5 /* Cell.m in Sources */,
 				98015467207F3D6A004F29B5 /* main.m in Sources */,
 				98015459207F3D69004F29B5 /* AppDelegate.m in Sources */,
 			);
@@ -272,6 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9801548A207F3E6A004F29B5 /* CellSpec.m in Sources */,
 				98015471207F3D6A004F29B5 /* toy_specta_expecta_golTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +541,7 @@
 		};
 		98015481207F3D6A004F29B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B575F87E3CA2446E0B2D8E7 /* Pods-toy-specta-expecta-gol.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +559,7 @@
 		};
 		98015482207F3D6A004F29B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0397326AE6281FFD3D1E9513 /* Pods-toy-specta-expecta-gol.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +577,7 @@
 		};
 		98015484207F3D6A004F29B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0433100A8B94930AB2E74D49 /* Pods-toy-specta-expecta-golTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +597,7 @@
 		};
 		98015485207F3D6A004F29B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AADF600E78E8AD15D156A2D0 /* Pods-toy-specta-expecta-golTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +617,7 @@
 		};
 		98015487207F3D6A004F29B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2AAB029D6B6ADB927E213AE /* Pods-toy-specta-expecta-golUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96ZJY6AYCD;
@@ -521,6 +636,7 @@
 		};
 		98015488207F3D6A004F29B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E96C6F9531E3AFC4574E408 /* Pods-toy-specta-expecta-golUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96ZJY6AYCD;
