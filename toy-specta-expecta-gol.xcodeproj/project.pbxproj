@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98015459207F3D69004F29B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98015458207F3D69004F29B5 /* AppDelegate.m */; };
+		9801545C207F3D69004F29B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9801545B207F3D69004F29B5 /* ViewController.m */; };
+		9801545F207F3D69004F29B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9801545D207F3D69004F29B5 /* Main.storyboard */; };
+		98015461207F3D6A004F29B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98015460207F3D6A004F29B5 /* Assets.xcassets */; };
+		98015464207F3D6A004F29B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98015462207F3D6A004F29B5 /* LaunchScreen.storyboard */; };
+		98015467207F3D6A004F29B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98015466207F3D6A004F29B5 /* main.m */; };
+		98015471207F3D6A004F29B5 /* toy_specta_expecta_golTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98015470207F3D6A004F29B5 /* toy_specta_expecta_golTests.m */; };
+		9801547C207F3D6A004F29B5 /* toy_specta_expecta_golUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9801547B207F3D6A004F29B5 /* toy_specta_expecta_golUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9801546D207F3D6A004F29B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9801544C207F3D69004F29B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98015453207F3D69004F29B5;
+			remoteInfo = "toy-specta-expecta-gol";
+		};
+		98015478207F3D6A004F29B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9801544C207F3D69004F29B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98015453207F3D69004F29B5;
+			remoteInfo = "toy-specta-expecta-gol";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98015454207F3D69004F29B5 /* toy-specta-expecta-gol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "toy-specta-expecta-gol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98015457207F3D69004F29B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98015458207F3D69004F29B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9801545A207F3D69004F29B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9801545B207F3D69004F29B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9801545E207F3D69004F29B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98015460207F3D6A004F29B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98015463207F3D6A004F29B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98015465207F3D6A004F29B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98015466207F3D6A004F29B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9801546C207F3D6A004F29B5 /* toy-specta-expecta-golTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "toy-specta-expecta-golTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98015470207F3D6A004F29B5 /* toy_specta_expecta_golTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = toy_specta_expecta_golTests.m; sourceTree = "<group>"; };
+		98015472207F3D6A004F29B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98015477207F3D6A004F29B5 /* toy-specta-expecta-golUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "toy-specta-expecta-golUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9801547B207F3D6A004F29B5 /* toy_specta_expecta_golUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = toy_specta_expecta_golUITests.m; sourceTree = "<group>"; };
+		9801547D207F3D6A004F29B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98015451207F3D69004F29B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98015469207F3D6A004F29B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98015474207F3D6A004F29B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9801544B207F3D69004F29B5 = {
+			isa = PBXGroup;
+			children = (
+				98015456207F3D69004F29B5 /* toy-specta-expecta-gol */,
+				9801546F207F3D6A004F29B5 /* toy-specta-expecta-golTests */,
+				9801547A207F3D6A004F29B5 /* toy-specta-expecta-golUITests */,
+				98015455207F3D69004F29B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98015455207F3D69004F29B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98015454207F3D69004F29B5 /* toy-specta-expecta-gol.app */,
+				9801546C207F3D6A004F29B5 /* toy-specta-expecta-golTests.xctest */,
+				98015477207F3D6A004F29B5 /* toy-specta-expecta-golUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98015456207F3D69004F29B5 /* toy-specta-expecta-gol */ = {
+			isa = PBXGroup;
+			children = (
+				98015457207F3D69004F29B5 /* AppDelegate.h */,
+				98015458207F3D69004F29B5 /* AppDelegate.m */,
+				9801545A207F3D69004F29B5 /* ViewController.h */,
+				9801545B207F3D69004F29B5 /* ViewController.m */,
+				9801545D207F3D69004F29B5 /* Main.storyboard */,
+				98015460207F3D6A004F29B5 /* Assets.xcassets */,
+				98015462207F3D6A004F29B5 /* LaunchScreen.storyboard */,
+				98015465207F3D6A004F29B5 /* Info.plist */,
+				98015466207F3D6A004F29B5 /* main.m */,
+			);
+			path = "toy-specta-expecta-gol";
+			sourceTree = "<group>";
+		};
+		9801546F207F3D6A004F29B5 /* toy-specta-expecta-golTests */ = {
+			isa = PBXGroup;
+			children = (
+				98015470207F3D6A004F29B5 /* toy_specta_expecta_golTests.m */,
+				98015472207F3D6A004F29B5 /* Info.plist */,
+			);
+			path = "toy-specta-expecta-golTests";
+			sourceTree = "<group>";
+		};
+		9801547A207F3D6A004F29B5 /* toy-specta-expecta-golUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9801547B207F3D6A004F29B5 /* toy_specta_expecta_golUITests.m */,
+				9801547D207F3D6A004F29B5 /* Info.plist */,
+			);
+			path = "toy-specta-expecta-golUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98015453207F3D69004F29B5 /* toy-specta-expecta-gol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98015480207F3D6A004F29B5 /* Build configuration list for PBXNativeTarget "toy-specta-expecta-gol" */;
+			buildPhases = (
+				98015450207F3D69004F29B5 /* Sources */,
+				98015451207F3D69004F29B5 /* Frameworks */,
+				98015452207F3D69004F29B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "toy-specta-expecta-gol";
+			productName = "toy-specta-expecta-gol";
+			productReference = 98015454207F3D69004F29B5 /* toy-specta-expecta-gol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9801546B207F3D6A004F29B5 /* toy-specta-expecta-golTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98015483207F3D6A004F29B5 /* Build configuration list for PBXNativeTarget "toy-specta-expecta-golTests" */;
+			buildPhases = (
+				98015468207F3D6A004F29B5 /* Sources */,
+				98015469207F3D6A004F29B5 /* Frameworks */,
+				9801546A207F3D6A004F29B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9801546E207F3D6A004F29B5 /* PBXTargetDependency */,
+			);
+			name = "toy-specta-expecta-golTests";
+			productName = "toy-specta-expecta-golTests";
+			productReference = 9801546C207F3D6A004F29B5 /* toy-specta-expecta-golTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98015476207F3D6A004F29B5 /* toy-specta-expecta-golUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98015486207F3D6A004F29B5 /* Build configuration list for PBXNativeTarget "toy-specta-expecta-golUITests" */;
+			buildPhases = (
+				98015473207F3D6A004F29B5 /* Sources */,
+				98015474207F3D6A004F29B5 /* Frameworks */,
+				98015475207F3D6A004F29B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98015479207F3D6A004F29B5 /* PBXTargetDependency */,
+			);
+			name = "toy-specta-expecta-golUITests";
+			productName = "toy-specta-expecta-golUITests";
+			productReference = 98015477207F3D6A004F29B5 /* toy-specta-expecta-golUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9801544C207F3D69004F29B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Faiz Mokhtar";
+				TargetAttributes = {
+					98015453207F3D69004F29B5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					9801546B207F3D6A004F29B5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 98015453207F3D69004F29B5;
+					};
+					98015476207F3D6A004F29B5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 98015453207F3D69004F29B5;
+					};
+				};
+			};
+			buildConfigurationList = 9801544F207F3D69004F29B5 /* Build configuration list for PBXProject "toy-specta-expecta-gol" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9801544B207F3D69004F29B5;
+			productRefGroup = 98015455207F3D69004F29B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98015453207F3D69004F29B5 /* toy-specta-expecta-gol */,
+				9801546B207F3D6A004F29B5 /* toy-specta-expecta-golTests */,
+				98015476207F3D6A004F29B5 /* toy-specta-expecta-golUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98015452207F3D69004F29B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98015464207F3D6A004F29B5 /* LaunchScreen.storyboard in Resources */,
+				98015461207F3D6A004F29B5 /* Assets.xcassets in Resources */,
+				9801545F207F3D69004F29B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9801546A207F3D6A004F29B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98015475207F3D6A004F29B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98015450207F3D69004F29B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9801545C207F3D69004F29B5 /* ViewController.m in Sources */,
+				98015467207F3D6A004F29B5 /* main.m in Sources */,
+				98015459207F3D69004F29B5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98015468207F3D6A004F29B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98015471207F3D6A004F29B5 /* toy_specta_expecta_golTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98015473207F3D6A004F29B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9801547C207F3D6A004F29B5 /* toy_specta_expecta_golUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9801546E207F3D6A004F29B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98015453207F3D69004F29B5 /* toy-specta-expecta-gol */;
+			targetProxy = 9801546D207F3D6A004F29B5 /* PBXContainerItemProxy */;
+		};
+		98015479207F3D6A004F29B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98015453207F3D69004F29B5 /* toy-specta-expecta-gol */;
+			targetProxy = 98015478207F3D6A004F29B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9801545D207F3D69004F29B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9801545E207F3D69004F29B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98015462207F3D6A004F29B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98015463207F3D6A004F29B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9801547E207F3D6A004F29B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9801547F207F3D6A004F29B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98015481207F3D6A004F29B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				INFOPLIST_FILE = "toy-specta-expecta-gol/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.toy-specta-expecta-gol";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98015482207F3D6A004F29B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				INFOPLIST_FILE = "toy-specta-expecta-gol/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.toy-specta-expecta-gol";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98015484207F3D6A004F29B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				INFOPLIST_FILE = "toy-specta-expecta-golTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.toy-specta-expecta-golTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toy-specta-expecta-gol.app/toy-specta-expecta-gol";
+			};
+			name = Debug;
+		};
+		98015485207F3D6A004F29B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				INFOPLIST_FILE = "toy-specta-expecta-golTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.toy-specta-expecta-golTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toy-specta-expecta-gol.app/toy-specta-expecta-gol";
+			};
+			name = Release;
+		};
+		98015487207F3D6A004F29B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				INFOPLIST_FILE = "toy-specta-expecta-golUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.toy-specta-expecta-golUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "toy-specta-expecta-gol";
+			};
+			name = Debug;
+		};
+		98015488207F3D6A004F29B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				INFOPLIST_FILE = "toy-specta-expecta-golUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.toy-specta-expecta-golUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "toy-specta-expecta-gol";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9801544F207F3D69004F29B5 /* Build configuration list for PBXProject "toy-specta-expecta-gol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9801547E207F3D6A004F29B5 /* Debug */,
+				9801547F207F3D6A004F29B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98015480207F3D6A004F29B5 /* Build configuration list for PBXNativeTarget "toy-specta-expecta-gol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98015481207F3D6A004F29B5 /* Debug */,
+				98015482207F3D6A004F29B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98015483207F3D6A004F29B5 /* Build configuration list for PBXNativeTarget "toy-specta-expecta-golTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98015484207F3D6A004F29B5 /* Debug */,
+				98015485207F3D6A004F29B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98015486207F3D6A004F29B5 /* Build configuration list for PBXNativeTarget "toy-specta-expecta-golUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98015487207F3D6A004F29B5 /* Debug */,
+				98015488207F3D6A004F29B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9801544C207F3D69004F29B5 /* Project object */;
+}
